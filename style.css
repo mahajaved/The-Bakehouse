@@ -1,22 +1,194 @@
-.header {
 
+/*homepage*/
+
+body{
+  background: url(background.jpg)
+  no-repeat center center fixed;
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+header {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.head {
+  float:left;
+  color: #fff;
+  font-family: cursive;
 }
 nav {
-  width: 100%;
-  height: 110px;
-  background-color: grey;
+  float:right;
 }
-th, td {
-  text-align: left;
+li{
+  display: inline;
+  padding: 16px;
+}
+li a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.active{
+  color: #ff9999;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 1%;
+  background-color: rgba(128,128,128,0.8);
 
 }
-ul {
-  list-style-type: none;
 
-}
-li {
-  display: inline-block;
-  float:left;
-  padding: 30px;
+showcase h1 {
+  color: #fff;
+  font-family:cursive;
   text-align: center;
+}
+
+.category{
+  color: #fff;
+  margin-top: 5%;
+  display:flex;
+  text-align: center;
+  font-family: cursive;
+}
+
+img{
+  width: 160px;
+  border-radius: 50%;
+}
+
+.cookies .cake .savoury{
+  padding:50px;
+}
+
+h4 {
+  font-size: 22px;
+  margin: 3%;
+}
+
+.btn {
+  background-color: #ffcccc;
+  color: black;
+  padding: 16px;
+  border: none;
+  border-radius: 8px;
+  margin-left: 45%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-style: italic;
+}
+
+
+.info {
+  text-align: center;
+  color: #fff;
+  font-family:cursive;
+  padding: 20px;
+}
+
+/*Contact Us*/
+.contact {
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 2%;
+  padding-top: 20px;
+  background-color: rgba(128,128,128,0.8);
+  text-align: center;
+  color: #fff;
+  font-family: cursive;
+
+}
+
+ input, textarea {
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: 5%;
+  font-family: cursive;
+  display: inline-block;
+  width: 80%;
+ padding: 12px;
+}
+
+button {
+  background-color: #ffcccc;
+  color: #737373;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+  margin-left: 8%;
+  margin-bottom: 10%;
+}
+
+/*Checkout page */
+label {
+  float: left;
+  margin-left:5%;
+}
+
+.payment {
+  cursor: pointer;
+display: inline-flex;
+align-items: center;
+margin-right: 10px;
+
+}
+
+.button1 {
+  background-color: #ffcccc;
+  color: #737373;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10%;
+  /*float: left;
+  margin-left: 8%;
+  margin-bottom: 10%; */
+}
+
+/*Menu page*/
+h1 {
+  font-family: cursive;
+  color: #fff;
+  text-align: center;
+  font-size: 45px;
+
+}
+
+h2 {
+  font-family: cursive;
+  color: #fff;
+  padding-top: 25px;
+  padding-left: 30px;
+}
+td {
+  font-family: cursive;
+  color: #fff;
+  padding-left: 120px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.container1 {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  background-color: rgba(255, 204, 204,0.8);
+
+}
+.container2{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  background-color: rgba(128,128,128,0.8);
 }
